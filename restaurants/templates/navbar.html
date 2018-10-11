@@ -15,6 +15,23 @@
       <input class="form-control mr-sm-2" type="text" name='q' placeholder="I don't do anything">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
-    
+
+        <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'signin' %}">SignIn</a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'signout' %}">SignOut</a>
+      </li>
+    </ul>
+
+        <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'signup' %}">SignUp</a>
+      </li>
+    </ul>
   </div>
 </nav>
